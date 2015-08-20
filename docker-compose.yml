@@ -12,7 +12,7 @@ catarse:
 postgres:
     image: leprechaun/postgres-contrib
     ports:
-        - 5432
+        - 5432:5432
 redis:
     image: redis
     ports:
