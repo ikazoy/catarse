@@ -4,8 +4,8 @@
 //= require moment
 //= require replace-diacritics
 //= require api/init
-//= require catarse.js/dist/catarse.js
-//= require_self
+//= require hack-for-chinese/catarse.js
+// = require_self
 
 var adminRoot = document.getElementById('new-admin'),
     teamRoot = document.getElementById("team-root");
