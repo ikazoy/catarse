@@ -33,7 +33,7 @@
   .section.section-gray-one
     .w-container
       .fontsize-larger.lineheight-tight.u-text-center.u-marginbottom-40 
-        = t('.follow_category', category: @project.category.name_pt)
+        = t('.follow_category', category: @project.category.name_zh)
       .w-row
         .w-col.w-col-4.w-col-push-4
-          = link_to "#{t('.follow')} #{@project.category.name_pt}", subscribe_category_path(@project.category), class: 'btn btn-large btn-dark'
+          = link_to "#{t('.follow')} #{@project.category.name_zh}", subscribe_category_path(@project.category), class: 'btn btn-large btn-dark'

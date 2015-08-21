@@ -36,7 +36,7 @@ GIT
       orm_adapter
 
 GEM
-  remote: https://rubygems.org/
+  remote: http://ruby.taobao.org/
   specs:
     CFPropertyList (2.3.1)
     actionmailer (4.1.12)
@@ -751,3 +751,6 @@ DEPENDENCIES
   video_info (>= 1.1.1)
   weekdays
   zonebie
+
+BUNDLED WITH
+   1.10.6

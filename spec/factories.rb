@@ -52,7 +52,7 @@ FactoryGirl.define do
   end
 
   factory :category do |f|
-    f.name_pt { generate(:name) }
+    f.name_zh { generate(:name) }
   end
 
   factory :project do |f|

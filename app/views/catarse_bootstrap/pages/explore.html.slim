@@ -1,5 +1,5 @@
 - content_for :title, t('.title')
-- categories = Category.with_projects.order(:name_pt).all
+- categories = Category.with_projects.order(:name_zh).all
 = render 'shared/header_big', overlayer: true
 
 - if current_user

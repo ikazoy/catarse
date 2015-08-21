@@ -37,7 +37,7 @@
                     .w-checkbox.w-clearfix
                       = check_box_tag "user[category_followers_attributes][][category_id]", category_follower.category.id, true, class: 'w-checkbox-input'
                       = hidden_field_tag "anchor", 'notifications' 
-                      label.w-form-label.fontsize-small= category_follower.category.name_pt
+                      label.w-form-label.fontsize-small= category_follower.category.name_zh
               .w-row.u-marginbottom-20
                 .w-col.w-col-4
                   .fontweight-semibold.fontsize-small.u-marginbottom-10 Lembretes de projetos:

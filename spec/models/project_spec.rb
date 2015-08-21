@@ -562,7 +562,7 @@ RSpec.describe Project, type: :model do
         total_contributions: project.total_contributions,
         pledged: project.pledged,
         project_state: project.state,
-        category: project.category.name_pt,
+        category: project.category.name_zh,
         project_goal: project.goal,
         project_online_date: project.online_date,
         project_expires_at: project.expires_at,

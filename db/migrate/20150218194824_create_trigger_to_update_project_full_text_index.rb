@@ -6,7 +6,7 @@ class CreateTriggerToUpdateProjectFullTextIndex < ActiveRecord::Migration
       new.full_text_index :=  setweight(to_tsvector('portuguese', unaccent(coalesce(NEW.name::text, ''))), 'A') || 
                               setweight(to_tsvector('portuguese', unaccent(coalesce(NEW.permalink::text, ''))), 'C') || 
                               setweight(to_tsvector('portuguese', unaccent(coalesce(NEW.headline::text, ''))), 'B');
-      new.full_text_index :=  new.full_text_index || setweight(to_tsvector('portuguese', unaccent(coalesce((SELECT c.name_pt FROM categories c WHERE c.id = NEW.category_id)::text, ''))), 'B');
+      new.full_text_index :=  new.full_text_index || setweight(to_tsvector('portuguese', unaccent(coalesce((SELECT c.name_zh FROM categories c WHERE c.id = NEW.category_id)::text, ''))), 'B');
       RETURN NEW;
     END;
     $$ LANGUAGE plpgsql;

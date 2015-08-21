@@ -249,7 +249,7 @@ class Project < ActiveRecord::Base
       total_contributions: self.total_contributions,
       pledged: self.pledged,
       project_state: self.state,
-      category: self.category.name_pt,
+      category: self.category.name_zh,
       project_goal: self.goal,
       project_online_date: self.online_date,
       project_expires_at: self.expires_at,
