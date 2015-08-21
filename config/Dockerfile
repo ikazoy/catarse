@@ -2,14 +2,9 @@ FROM ruby:2.2.2
 
 RUN mkdir -p /tmp/
 COPY Gemfile* /tmp/
-
-RUN apt-get update && apt-get -y install npm node && apt-get clean
 RUN cd /tmp/ && bundle install
-RUN npm install -g bower
 RUN mkdir -p /app
 COPY . /app/
 RUN cd /app/
-RUN bower install --allow-root
 RUN apt-get update && apt-get -y install postgresql-client
-
 WORKDIR /app/
