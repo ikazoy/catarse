@@ -8,4 +8,5 @@ COPY . /app/
 RUN cd /app/
 RUN apt-get update && apt-get -y install postgresql-client nodejs npm
 RUN ln -s /usr/bin/nodejs /usr/bin/node
+RUN bower --allow-root install
 WORKDIR /app/
