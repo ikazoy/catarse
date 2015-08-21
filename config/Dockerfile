@@ -7,4 +7,5 @@ RUN mkdir -p /app
 COPY . /app/
 RUN cd /app/
 RUN apt-get update && apt-get -y install postgresql-client nodejs
+RUN ln -s /usr/bin/nodejs /usr/bin/node
 WORKDIR /app/
