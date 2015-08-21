@@ -1,18 +1,18 @@
 zh:
-  not_filled: 'Não preenchido'
-  days: dias
-  facebook_locale: pt_BR
-  failure_title: 'Por favor, corrija os seguintes erros:'
-  i_just_contributed: Eu acabei de apoiar o projeto %{name} no @catarse
-  'no': Não
-  'yes': Sim
-  not_informed: não informado
-  or: ou
-  sending: Enviando...
-  share_my_contributions: 'Confira o projeto '
+  not_filled: '未注册'
+  days: 日期
+  facebook_locale: zh_CN
+  failure_title: '请修改以下错误'
+  i_just_contributed: 我刚刚在 @catarse 注册了项目 %{name}
+  'no': 否
+  'yes': 是
+  not_informed: 不知情
+  or: 或者
+  sending: 正在发送...
+  share_my_contributions: '退房的項目'
   site:
-    description:  O Catarse é a primeira e maior plataforma de crowdfunding, ou financiamento coletivo, do Brasil. Venha tirar projetos do papel!
-    keywords: crowdfunding, financiamento coletivo, projeto, catarse, comunidade, open source
+    description:  宣泄是第一个也是最大的集资平台，或集资，巴西。快来参加设计！
+    keywords: 集资，集资，设计，通便，社区，开源
     meta_title: "%{title} · %{company_name}"
-    title: Crowdfunding e financiamento coletivo no Brasil é no Catarse
+    title: 集资和集资巴西是Catarse
 

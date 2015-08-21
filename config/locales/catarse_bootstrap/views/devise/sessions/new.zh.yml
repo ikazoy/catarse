@@ -2,19 +2,18 @@ zh:
   devise:
     sessions:
       new:
-        no_account_html: "Não tem conta?"
+        no_account_html: "没有账号"
         titles:
-          site: 'Login'
-          header: 'Login'
+          site: '登录'
+          header: '登录'
         links:
-          register: "Cadastre-se"
-          password: "Senha"
-          forgot_password: "Esqueci minha senha"
+          register: "注册"
+          password: "密码"
+          forgot_password: "忘记密码"
         form:
           labels:
-            remember_me: 'Permanecer conectado'
+            remember_me: '记住我'
           inputs:
-            submit: 'Fazer login'
-            password: 'Senha'
-            facebook: 'Entrar com Facebook'
-
+            submit: '提交'
+            password: '密码'
+            facebook: 'facebook 登录'
