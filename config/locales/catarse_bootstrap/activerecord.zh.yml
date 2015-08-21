@@ -1,76 +1,76 @@
 zh:
   activerecord:
     models:
-      channel: Canal
-      project: Projeto
-      reward: Recompensa
-      contribution: Apoiador
-      category: Categoria
-      bank_account: Dados bancários
+      channel: "通道"
+      project: "项目"
+      reward: "奖励"
+      contribution: "贡献"
+      category: "策略"
+      bank_account: "银行账号"
     attributes:
       project_account:
-        address_city: Cidade
-        address_complement: Complemento
-        address_neighbourhood: Bairro
-        address_number: Número
-        address_state: Estado
-        address_street: Endereço
-        address_zip_code: CEP
+        address_city: "所在城市"
+        address_complement: "附加信息"
+        address_neighbourhood: "邻居"
+        address_number: "门牌号"
+        address_state: "州"
+        address_street: "街道"
+        address_zip_code: "邮编"
         cpf: 'CPF / CNPJ '
-        state_inscription: 'Inscrição Estadual'
-        email: Email
-        full_name: "Nome completo / Razão Social"
-        phone_number: "Telefone"
-        bank: 'Banco'
-        bank_id: 'Banco'
-        owner_name: 'Nome do titular'
-        owner_document: 'CPF do titular da conta bancária'
-        agency: 'Agência'
-        agency_digit: 'Dígito agência'
-        account: 'No. da conta'
-        account_digit: 'Dígito conta'
-        account_type: 'Tipo de conta'
+        state_inscription: "注册国家"
+        email: "邮箱"
+        full_name: "个人姓名 / 公司名称"
+        phone_number: "电话"
+        bank: '银行'
+        bank_id: ''
+        owner_name: '持卡人姓名'
+        owner_document: '公积金的银行帐户持有人'
+        agency: '机构'
+        agency_digit: '数字机构'
+        account: '账号'
+        account_digit: '账号名'
+        account_type: '账户类型'
       bank_account:
-        input_bank_number: "Número do banco"
-        bank: 'Banco'
+        input_bank_number: "银行号码"
+        bank: '银行'
         bank_id: 'Banco'
-        owner_name: 'Nome do titular'
+        owner_name: '持有人姓名'
         owner_document: 'CPF / CNPJ do titular'
-        agency: 'Agência'
-        agency_digit: 'Dígito agência'
+        agency: '代理'
+        agency_digit: "代理编号"
         account: 'No. da conta'
         account_digit: 'Dígito conta'
       payment:
-        state: 'Status'
+        state: '状态'
       contribution:
-        payer_name: "Nome Completo"
-        payer_email: "Email"
-        payer_document: "CPF ou CNPJ"
-        country: "País"
-        address_street: "Rua"
-        address_number: "Número"
-        address_complement: "Complemento"
-        address_neighbourhood: "Bairro"
-        address_state: "Estado"
-        address_city: "Cidade"
-        address_zip_code: "CEP"
-        address_phone_number: "Telefone"
-        value: Valor do apoio
-        payer_name: "Nome Completo"
-        payer_email: "Email"
-        country: "País"
-        address_street: "Rua"
-        address_number: "Número"
-        address_complement: "Complemento"
-        address_neighbourhood: "Bairro"
-        address_state: "Estado"
-        address_city: "Cidade"
-        address_zip_code: "CEP"
-        address_phone_number: "Telefone"
-        reward: Recompensa
-        project: projeto
+        payer_name: "付款人姓名"
+        payer_email: "付款人邮箱"
+        payer_document: "公积金 或 注册法人"
+        country: "国家"
+        address_street: "街道"
+        address_number: "号"
+        address_complement: "附加信息"
+        address_neighbourhood: "邻居"
+        address_state: "州"
+        address_city: "市"
+        address_zip_code: "邮编"
+        address_phone_number: "电话"
+        value: 值
+        payer_name: "付款人姓名"
+        payer_email: "付款人邮箱"
+        country: "国家"
+        address_street: "街道"
+        address_number: "号"
+        address_complement: "附加信息"
+        address_neighbourhood: "邻居"
+        address_state: "州"
+        address_city: "市"
+        address_zip_code: "邮编"
+        address_phone_number: "电话"
+        reward: "奖励"
+        project: "项目"
       reward:
-        deliver_at: Previsão de entrega
+        deliver_at: "交付"
       project:
         channels: Canais
         category: Categoria
@@ -228,24 +228,24 @@ zh:
         user:
           attributes:
             email:
-              not_found: "O email não está cadastrado, verifique o endereço ou faça seu cadastro"
-              taken: "O email já está cadastrado, faça seu login"
-              invalid: "Esse endereço de email é inválido"
-              blank: "O email não pode ficar em branco"
+              not_found: "Email 没有注册，请检查"
+              taken: "该Email已经注册，请直接登录"
+              invalid: "Email格式不正确"
+              blank: "Email不能为空"
             password:
-              too_short: "A senha que você escolheu é muito curta"
-              confirmation: "A senha e a confirmação de senha preenchidas não estão iguais"
-              blank: "A senha não pode ficar em branco"
+              too_short: "密码太短"
+              confirmation: "验证密码与原密码不一致"
+              blank: "密码不能为空"
             current_password:
-              invalid: "Senha atual não é válida"
+              invalid: "当前密码不合法"
             reset_password_token:
-              invalid: 'Token expirou. Vá para <a href="/password/new" class="alt-link">redefinir senha</a> e solicite novamente a redefinição da senha.'
+              invalid: '令牌过期，请前往<a href="/password/new" class="alt-link">密码重置</a>'
             name:
-              blank: "Nome do usuário não pode ficar em branco"
+              blank: "用户名不能为空"
             about_html:
-              blank: "Sobre você não pode ficar em branco"
+              blank: "个人信息不能为空"
             uploaded_image:
-              blank: "Imagem do usuário não pode ficar em branco"
+              blank: "用户头像不能为空"
   project:
     update:
       success: As informações foram atualizadas
@@ -297,21 +297,4 @@ zh:
     address_state: Estado
     zip_code: CEP
     anonymous: Anônimo
-  user:
-    no_name: Sem nome
-    contributions_text:
-      many: "Apoiou este e mais outros %{total} projetos"
-      one: "Apoiou somente este projeto até agora"
-      two: "Apoiou este e mais 1 outro projeto"
-  channels_subscribers:
-    created: 'Agora você segue o %{channel}'
-    deleted: 'Você deixou de seguir o %{channel}'
-  channels:
-    edit: Atualizar canal
-    image_hint: Tamanho máximo (600x121px)
-    subscribed: "+ %{count} seguidores"
-    back_to_news: '← Voltar para as novidades'
-    follow: "Siga o canal"
-    following: "Seguindo"
-    unfollow: "Deixar de seguir"
-    subscribed: "%{count} seguindo o canal"
+

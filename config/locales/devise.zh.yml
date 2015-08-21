@@ -1,26 +1,26 @@
 zh:
   devise:
     feedback_tab:
-      title: 'Feedback e Ajuda'
-      header_html: 'Bem-vindo ao <br/> novo login do Catarse'
-      blog_button: 'Leia mais no blog'
-      form_feedback_link: 'Enviar feedback'
-      contact_link: 'Entrar em contato'
+      title: 'facebook 帮助'
+      header_html: '欢迎 <br/> 加入 Catarse'
+      blog_button: '更多详情'
+      form_feedback_link: '反馈'
+      contact_link: '联系我们'
     links:
-      forgot_password: Esqueci minha senha
+      forgot_password: 忘记密码
     confirmations:
-      confirmed: A sua conta foi confirmada com sucesso. Você está autenticado.
-      send_instructions: Dentro de minutos, você receberá um email com as instruções de confirmação da sua conta.
-      send_paranoid_instructions: Se o seu email existir em nosso banco de dados, você receberá um email com instruções sobre como confirmar sua conta em alguns minutos.
+      confirmed: 信息认证成功，已登录
+      send_instructions: 您将收到我们的账号确认邮件
+      send_paranoid_instructions: 如果邮箱正确，您将会在几分钟之后收到我们的确认邮件
     failure:
       password_token: 'O link para recuperar senha expirou. Insira novamente seu email'
       already_authenticated: ''
       #already_authenticated: Você já está autenticado.
       inactive: Esse email pertence a uma conta desativada
-      invalid: Email ou senha inválidos
-      invalid_token: O token de autenticação não é válido.
+      invalid: Email 信息不合法
+      invalid_token: 认证临牌不正确.
       locked: A sua conta está bloqueada.
-      not_found_in_database: Email ou senha inválidos
+      not_found_in_database: Email 信息不合法
       timeout: A sua sessão expirou, por favor, faça login novamente para continuar.
       unauthenticated: ''
       unconfirmed: Antes de continuar, confirme a sua conta.
@@ -83,16 +83,16 @@ zh:
       signed_out: ''
       #signed_out: Logout efetuado com sucesso.
     unlocks:
-      send_instructions: Dentro de minutos, você receberá um email com instruções de desbloqueio da sua conta.
-      send_paranoid_instructions: Se sua conta existir em nosso banco de dados, você receberá em breve um email com instruções para desbloquear ela.
-      unlocked: A sua conta foi desbloqueada com sucesso. Você está autenticado.
+      send_instructions: 解锁邮件将在几分钟之后发送至您的邮箱
+      send_paranoid_instructions: 如果邮箱正确，您将会在几分钟之后收到我们的解锁邮件
+      unlocked: 已解锁，您已经成功登录
   errors:
     messages:
-      already_confirmed: já foi confirmado
-      confirmation_period_expired: É necessário ser confirmado detro do periodo %{period}, por favor requisite um novo usuário.
-      expired: expirou, por favor solicite uma nova
-      not_found: não encontrado
-      not_locked: não foi bloqueado
+      already_confirmed: 认证通过
+      confirmation_period_expired: 过期时间为： %{period},请重新申请 .
+      expired: 已过期，请重新认证
+      not_found: 未找到
+      not_locked: 未锁定
       not_saved:
         one: ! ' '
         other: ! ' '

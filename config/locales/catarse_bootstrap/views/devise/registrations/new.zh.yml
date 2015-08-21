@@ -2,22 +2,22 @@ zh:
   devise:
     registrations:
       new:
-        have_account_html: "Já tem cadastro?"
+        have_account_html: "已经注册？"
         titles:
-          site: 'Cadastre-se'
-          header: 'Cadastre-se'
+          site: '登录'
+          header: '登录'
         links:
-          login: "Faça seu login"
+          login: "请登陆"
         form:
           labels:
-            show_password: 'Exibir senha'
-            name: 'Nome completo'
-            password: 'Senha'
-            newsletter: 'Quero receber novidades do Catarse no meu email'
-            accept: 'Ao efetuar cadastro, você está aceitando nossos <a href="%{terms_url}" class="alt-link" target="_blank">termos de uso</a> e <a class="alt-link" href="%{privacy_url}" target="_blank">política de privacidade</a>'
+            show_password: '显示密码'
+            name: '姓名'
+            password: '密码'
+            newsletter: '我想在我的电子邮件中收到宣泄的消息'
+            accept: '当您注册时，您需要同意我们的 <a href="%{terms_url}" class="alt-link" target="_blank">使用条款</a> 和 <a class="alt-link" href="%{privacy_url}" target="_blank">隐私政策</a>'
           hint:
-            password_length: 'Mínimo de 6 caracteres'
+            password_length: '至少6个字符'
           inputs:
-            submit: 'Efetuar cadastro'
-            facebook: 'Entrar com Facebook'
+            submit: '提交注册'
+            facebook: '使用facebook登录'
 
