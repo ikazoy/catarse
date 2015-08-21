@@ -12,7 +12,7 @@ development:
   adapter: postgresql
   encoding: unicode
   host: <%= ENV['POSTGRES_PORT_5432_TCP_ADDR'] %>
-  port: 5432
+  port: <%= ENV['POSTGRES_PORT_5432_TCP_PORT'] %>
   database: catarse_development
   pool: 5
   username: postgres # <== Change me!!
@@ -22,8 +22,8 @@ production:
   adapter: postgresql
   encoding: unicode
   host: <%= ENV['POSTGRES_PORT_5432_TCP_ADDR'] %>
-  port: 5432
-  database: catarse_development
+  port: <%= ENV['POSTGRES_PORT_5432_TCP_PORT'] %>
+  database: catarse
   pool: 5
   username: postgres # <== Change me!!
   password: mysecretpassword # <== Change me too!
