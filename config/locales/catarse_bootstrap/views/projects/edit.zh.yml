@@ -118,24 +118,23 @@ zh:
       next_steps: "Enquanto espera a sua resposta, você pode continuar editando o seu projeto! Recomendamos também que você vá coletando feedback com as pessoas próximas e planejando como será a sua campanha."
     dashboard_nav:
       leave_link_html: "&nbsp; Sair do painel de controle"
-      start_tab: Infos úteis
+      start_tab: 使用信息
       reports_tab: Relatórios
-      preview_tab: Preview
+      preview_tab: 预览
       posts_tab: Novidades
       edit_project: Editar projeto
       send: Enviar
       publish: Publicar
     dashboard_nav_links:
-      preview_tab: Preview
+      preview_tab: 预览
       account_tab: Conta
-      basics_tab: Básico
-      goal_tab: Meta e prazo
-      budget_tab: Orçamento
-      card_tab: Card do projeto
-      description_tab: Descrição
-      video_tab: Vídeo
-      rewards_tab: Recompensas
-      about_you_tab: Sobre você
+      basics_tab: 基本信息
+      goal_tab: 目标和期限
+      budget_tab: 图片设计
+      description_tab: 描述
+      video_tab: 视频
+      rewards_tab: 奖励
+      about_you_tab: 关于你
     dashboard_user_about:
       submit: "Salvar"
       twitter_label: "Perfil do twitter"
