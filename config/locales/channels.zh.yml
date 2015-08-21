@@ -1,4 +1,4 @@
-fr:
+zh:
   channels_subscribers:
     created: 'vous êtes désormais abonné à %{channel}'
     deleted: "vous n'êtes plus abonné à %{channel}"

@@ -1,4 +1,4 @@
-pt:
+zh:
   admin: &admin
     filter:
       title: 'Filtros'

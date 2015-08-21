@@ -1,70 +1,56 @@
-fr:
+zh:
   projects:
     index_header:
-      subtitle: Financer des projets en collaborations et devient quelque chose
-        de plus grand. Promouvoir un Catarse collectif ! Vous êtes la pièce qui manque à cette histoire.
-      title: Mettez en avant les projets que vous croyez.
+      subtitle: '我们是慈善融资类项目，你将成为其中的一员。推进项目发展！现在你是缺少在这个故事中的部分！'
+      title: '请相信我们我们能做到'
     index:
-      title: 'Catarse'
-      back_a_project: 'Soutenir un projet'
-      banner_before: 'Enlever '
+      title: '众筹'
+      back_a_project: '支持项目'
+      banner_before: '募集 '
       banner_words:
-        0: 'rêves'
-        1: 'disques'
-        2: 'expositions'
-        3: 'recherches'
-        4: 'carnavals'
-        5: 'photo'
-        6: 'pièces de théatre'
-        7: 'documentários'
-        8: 'livres'
-        9: 'spectacles'
-        10: 'passions'
-        11: 'rencontres'
-        12: 'musiques'
-        13: 'produits'
-        14: 'atitudes'
-        15: 'films'
-        16: 'quadrinhos'
-        17: 'ideias'
-      banner_after: ' du papier journal'      
-      see_all: 'Tout voir'
-      near_you: 'Prêt de vous'
-      recents: Récents
-      blog: Notre blog
-      expiring: Dans la dernière ligne droite
-      recommended: Recommandé
-      banner_subtitle: 'Tous créateurs de valeur.'
+        0: '衣物'
+        1: '药物'
+        2: '慈善活动'
+        3: '帐篷'
+      banner_after: ' 项目'
+      see_all: '查看全部'
+      near_you: '你附近'
+      recents: '最近开始的项目'
+      blog: '博客'
+      expiring: '在最后阶段'
+      recommended: '推荐'
+      banner_subtitle: '流浪儿童，山区小孩，流浪者等慈善项目'
       box:
-        by: par
-        when: quand
-      banner: "Connaître la recherche "
-      explore: "Explorez des projets "
+        by: '由'
+        when: 在
+      banner: "符合搜索"
+      explore: "浏览项目"
       links:
-        channels: "Découvrez les Ailes de la chaine "
-        recommended: "Découvrez les projets recommandés "
-        expiring: "Découvrez les projets dans la dernière ligne droite "
-        recents: "Découvrez les projets récents "
-        near: "Découvrez les projets autour de vous "
+        channels: "探索运河之翼"
+        recommended: "探索工程推荐"
+        expiring: "发现在家庭舒展项目"
+        recents: "查看最近的项目"
+        near: "发现你附近的项目"
       sidebar:
         titles:
-          blog: blog
-          facebook: "Vous aimez déjà notre page facebook ?"
-          newsletter: "Abonnez vous a nos nouvelles"
-          faq: "Vous avez une question ? "
-          schedule: agenda
+          blog: 博客
+          facebook: "已经喜欢我们的脸？"
+          newsletter: "订阅我们的新闻"
+          faq: "还好有疑问？"
+          schedule: 议程
         placeholders:
-          email: "Entrez votre email"
+          email: "请输入您的电子邮件地址"
         buttons:
-          newsletter: Envoyer
+          newsletter: 派
       sections:
         near:
-          title: 'Autour de moi'
+          title: '我附近'
         recommended:
-          title: 'Recommandations'
+          title: '推荐'
         expiring:
-          title: "Dans la dernière ligne droite"
+          title: "在最后阶段"
         recents:
-          title: "Récents"
+          title: "近来的"
         channels:
-          title: 'Ailes de la chaine'
+          title: '通道翅膀'
+
