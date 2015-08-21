@@ -6,5 +6,5 @@ RUN cd /tmp/ && bundle install
 RUN mkdir -p /app
 COPY . /app/
 RUN cd /app/
-RUN apt-get update && apt-get -y install postgresql-client
+RUN apt-get update && apt-get -y install postgresql-client nodejs
 WORKDIR /app/
