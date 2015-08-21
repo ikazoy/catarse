@@ -18,11 +18,11 @@ html
       = yield :meta_tags
     - else
       /meta tags for the whole site
-      meta name="description"         content=t('site.description')
-      meta name="keywords"            content=t('site.keywords')
+      /meta name="description"         content=t('site.description')
+      /meta name="keywords"            content=t('site.keywords')
       meta name="google-site-verification"  content=CatarseSettings[:google_verification_code]
       
-      meta property="og:title"        content=t('site.title')
+      /meta property="og:title"        content=t('site.title')
       meta property="og:type"         content=:cause
       meta property="og:url"          content=root_url
       meta property="og:image"        content=CatarseSettings[:company_logo]
